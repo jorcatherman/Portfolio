@@ -1,0 +1,209 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Portfolio - Jordan Catherman
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.1.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Jordan Catherman
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.png', alt='...')
+            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarResponsive.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Experience
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Education
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Jordan
+                        span.text-primary Catherman
+                    .subheading.mb-5
+                        | Rowland Heights, CA 91748 · (626) 274-6409 ·
+                        a(href='mailto:jorcatherman@hotmail.com') jorcatherman@hotmail.com
+                    p.lead.mb-5
+                        | I am a highly motivated and passionate Web Developer who produces high-quality code in agile environments and I thrive off of a fast-paced work setting. I provide great value to any team and I'm open to any new opportunities to further my experience in this field.
+                    .social-icons
+                        a.social-icon(href='https://www.linkedin.com/in/jordan-catherman-347195149/')
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='https://github.com/jorcatherman')
+                            i.fab.fa-github
+
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Experience
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Software Developer
+                            .subheading.mb-3 Red Sky Technologies
+                            p
+                                | Full-stack web development with a focus on front-end development for a hotel booking website. Built React components, pages, and features in compliance with approved Figma designs written in TypeScript. Debugged code and created bug fixes via browser-based debugging.
+                            p
+                                | Created custom hooks to reduce the amount of code across the code base. Used SASS/SCSS to create responsive features for desktops, tablets, and mobile devices.
+                            p
+                                | Refactored files, deleting unnecessary code and reducing the file size by roughly 60% while keeping all of the necessary features and functionality intact.
+                            p
+                                | Pushed new features into development, testing and production environments using continuous integration through the deployment pipelines.
+                            p
+                                | Reviewed team member's merge requests and provided necessary feedback to the team member. Pushed the merge request through the deployment pipelines.
+                            p
+                                | Refactored all of the projects pop-ups and drop-downs by configuring the SCSS calc and clamp functions, as well as adding overflow prevention on the containing body to make each element responsive and scrollable at all supported mobile and desktop resolutions. Utilized Flexbox to display the header and footer of all pop-ups and drop-downs at all times, on any device.
+                        .flex-shrink-0
+                            span.text-primary December 2021 - May 2022
+
+
+
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Mt.San Antonio College
+                            .subheading.mb-3 Accounting
+                            div Studied General Accounting
+
+                        .flex-shrink-0
+                            span.text-primary August 2016 - August 2019
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Coding Dojo
+                            .subheading.mb-3 Full-Stack Web Development
+                            p Full-Stack Developer Certification
+                        .flex-shrink-0
+                            span.text-primary December 2020
+
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Programming Languages & Tools
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.fab.fa-html5
+                        li.list-inline-item
+                            i.fab.fa-css3-alt
+                        li.list-inline-item
+                            i.fab.fa-js-square
+                        li.list-inline-item
+                            i.fab.fa-docker
+                        li.list-inline-item
+                            i.fab.fa-react
+                        li.list-inline-item
+                            i.fab.fa-node-js
+                        li.list-inline-item
+                            i.fab.fa-sass
+                        li.list-inline-item
+                            i.fab.fa-less
+                        li.list-inline-item
+                            i.fab.fa-ubuntu
+                        li.list-inline-item
+                            i.fab.fa-python
+                        li.list-inline-item
+                            i.fab.fa-aws
+                        li.list-inline-item
+                            i.fab.fa-npm
+                            <img src='assets/img/TypeScriptGrat.png', alt='...' width=42px height=42px>
+                            <img src='assets/img/AzureDevops.png', alt='...' width=42px height=42px>
+
+                    .subheading.mb-3 Workflow
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Mobile-First, Responsive Design
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Cross Browser Testing & Debugging
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Agile Development & Scrum
+
+            hr.m-0
+
+            // Interests
+            section#interests.resume-section
+                .resume-section-content
+                    h2.mb-5 Interests
+                    p
+                        | Apart from being a web developer, I love spending time learning new technologies in front-end web development and watching movies or television shows with my friends and family.
+                    p
+                        | I'm also a huge fan of basketball, so when I'm not spending time watching basketball games, I'm playing pick-up basketball at a local park.
+                    p.mb-0
+                        | During the hotter months in California, I enjoy spending some time playing video games with my friends online and reading or watching videos on chess or cybersecurity.
+
+            hr.m-0
+
+            // Awards
+            section#projects.resume-section
+                .resume-section-content
+                                    h2.mb-5 Projects
+
+                                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                                        .flex-grow-1
+                                            h3.mb-0 Connect
+
+                                            p
+                                                | Created a platform using TypeScript, JavaScript, HTML, CSS and Toastify for users to connect with each other.
+                                            p
+                                                | Users can create, update, delete or view their profile. Users can also view other people who have created their profile on the website.
+
+                                        .flex-shrink-0
+                                            span.text-primary December 2021 - May 2022
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
